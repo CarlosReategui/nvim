@@ -4,7 +4,8 @@ return {
         config = function()
             require("mason").setup({
                 ensure_installed = {
-                    "black",
+                    -- "black",
+                    "autopep8",
                     "isort",
                     "stylua",
                     "prettier",
